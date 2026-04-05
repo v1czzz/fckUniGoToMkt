@@ -1,0 +1,27 @@
+{
+	"servers": {
+		"firecrawl": {
+			"command": "npx",
+			"args": [
+				"-y",
+				"firecrawl-mcp"
+			],
+			"env": {
+				"FIRECRAWL_API_KEY": "${input:apiKey}"
+			},
+			"type": "stdio"
+		},
+		"gemini-api-docs-mcp": {
+			"type": "http",
+			"url": "https://gemini-api-docs-mcp.dev"
+		}
+	},
+	"inputs": [
+		{
+			"type": "promptString",
+			"id": "apiKey",
+			"description": "Firecrawl API Key",
+			"password": true
+		}
+	]
+}

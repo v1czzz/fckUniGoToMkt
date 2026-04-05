@@ -1,0 +1,710 @@
+{
+  "source_input": "rawData.json",
+  "model": "gemini-3-flash-preview",
+  "generated_at_utc": "2026-04-05T19:49:50.664832+00:00",
+  "total_offers_in_input": 40,
+  "total_offers_processed": 21,
+  "total_errors": 19,
+  "insights": [
+    {
+      "index": 1,
+      "title": "ADMINISTRATIVO/A Y TÉCNICO/A LABORAL",
+      "company": "COMERCIALIZADORA MEDITERRANEA DE VIVIENDAS SL",
+      "url": "https://www.infojobs.net/castellon-de-la-plana-castello-de-la-plana/administrativo-tecnico-laboral/of-i10bc2984b34c8faa72cfabfaadb54d",
+      "insight": {
+        "tipo_puesto": "Administrativo/a y Técnico/a Laboral",
+        "ambito": "RRLL y RRHH, ADE, Económicas, Construcción",
+        "habilidades_practicas": [
+          "Gestión de documentación laboral",
+          "Gestión de contratos de trabajo",
+          "Control de nóminas",
+          "Cálculo de atrasos y anticipos",
+          "Trámites en la SS (Sistema Red, Contrat@, SILTRA)",
+          "Atención a los trabajadores",
+          "Manejo de herramientas ofimáticas",
+          "Habilidades de comunicación",
+          "Organización",
+          "Proactividad"
+        ],
+        "conocimientos_practicos": [
+          "Contratos",
+          "Nóminas",
+          "Normativa laboral",
+          "Seguridad Social (SS)",
+          "Herramientas ofimáticas",
+          "Sistema Red",
+          "Contrat@",
+          "SILTRA"
+        ]
+      }
+    },
+    {
+      "index": 2,
+      "title": "AUDITOR/A INTERNO",
+      "company": "COMERCIALIZADORA MEDITERRANEA DE VIVIENDAS SL",
+      "url": "https://www.infojobs.net/castellon-de-la-plana-castello-de-la-plana/auditor-interno/of-i7dee5c961547ae9b39a0757dc0f8f2",
+      "insight": {
+        "tipo_puesto": "AUDITOR/A INTERNO",
+        "ambito": "Construcción, ADE, Económicas, Contabilidad",
+        "habilidades_practicas": [
+          "Revisión de procesos de compras",
+          "Control de stocks",
+          "Auditoría del proceso de venta de inmuebles",
+          "Control de consumos y compras estratégicas",
+          "Conciliación bancaria",
+          "Elaboración de informes de tesorería",
+          "Cumplimiento de procesos administrativos",
+          "Gestión del gasto",
+          "Optimización de recursos"
+        ],
+        "conocimientos_practicos": [
+          "Compras",
+          "Gestión",
+          "Control de stocks",
+          "Revisión",
+          "Tesorería",
+          "Inmuebles",
+          "Viviendas",
+          "Conciliación bancaria",
+          "Español"
+        ]
+      }
+    },
+    {
+      "index": 3,
+      "title": "CONTROLLER DE OPERACIONES (H/M/D)",
+      "company": "ANANDA",
+      "url": "https://www.infojobs.net/castellon-de-la-plana-castello-de-la-plana/controller-operaciones-h-m-d/of-i29f7aa2eea4d17acc9351a0be292a5",
+      "insight": {
+        "tipo_puesto": "Controller de operaciones",
+        "ambito": "ADE, gestión de operaciones, ingeniería de organización, hostelería",
+        "habilidades_practicas": [
+          "Capacidad analítica",
+          "Atención al detalle",
+          "Organización",
+          "Capacidad de supervisión",
+          "Orientación a la mejora continua",
+          "Capacidad de comunicación",
+          "Coordinación entre departamentos",
+          "Supervisión del cumplimiento de procedimientos operativos",
+          "Verificación de inventarios periódicos",
+          "Control de cierre semanal de producciones",
+          "Revisión de procesos de compras",
+          "Verificación de protocolos de limpieza y mantenimiento",
+          "Supervisión de preparación operativa de eventos",
+          "Revisión de procedimientos de cierre de cocinas",
+          "Elaboración de informes de control operativo"
+        ],
+        "conocimientos_practicos": [
+          "Excel",
+          "Herramientas de control",
+          "ERP",
+          "Control de operaciones",
+          "Auditoría interna",
+          "Control de procesos",
+          "Gestión operativa"
+        ]
+      }
+    },
+    {
+      "index": 4,
+      "title": "Consultor/a Comercial Junior | Captación y desarrollo de clientes",
+      "company": "Declarando Asesores 3.0 S.L.",
+      "url": "https://www.infojobs.net/castellon-de-la-plana-castello-de-la-plana/consultor-comercial-junior-captacion-desarrollo-clientes/of-i97c529854c4eab9775bd201c82e26f",
+      "insight": {
+        "tipo_puesto": "Consultor/a Comercial Junior",
+        "ambito": "Comercial",
+        "habilidades_practicas": [
+          "Contacto con potenciales clientes",
+          "Detección de necesidades",
+          "Generación de oportunidades comerciales",
+          "Seguimiento y cualificación de leads",
+          "Acompañamiento de clientes",
+          "Construir relaciones de confianza",
+          "Negociación y cierre de la venta",
+          "Habilidades comunicativas",
+          "Organización"
+        ],
+        "conocimientos_practicos": [
+          "Venta",
+          "Relaciones con clientes",
+          "Negociación con grandes superficies",
+          "Gestión comercial",
+          "Trabajo por objetivos",
+          "Captación de cuentas",
+          "Comunicaciones empresariales",
+          "Asesoramiento profesional",
+          "Marketing",
+          "Ventas consultivas"
+        ]
+      }
+    },
+    {
+      "index": 5,
+      "title": "Controller Financiero | Hospitality",
+      "company": "NEALIS",
+      "url": "https://www.infojobs.net/castellon-de-la-plana-castello-de-la-plana/controller-financiero-hospitality/of-i191c9130054e44ae2e004245f94da3",
+      "insight": {
+        "tipo_puesto": "Controller Financiero",
+        "ambito": "Hospitality, ADE, Economía, Finanzas y Contabilidad",
+        "habilidades_practicas": [
+          "Elaboración de informes de seguimiento de ingresos (RevPAR, ADR) y costes operativos",
+          "Optimización del cash-flow",
+          "Gestión avanzada del SII (Suministro Inmediato de Información)",
+          "Conciliación de registros de IVA",
+          "Preparación de reporting packages para auditorías",
+          "Seguimiento presupuestario y análisis de desviaciones",
+          "Gestión de tablas dinámicas y funciones lógicas en Excel",
+          "Uso de ERP (SAP, Navision, Sage)",
+          "Uso de herramientas de Business Intelligence",
+          "Gestión de pedidos de compra",
+          "Resolución de discrepancias administrativas y de facturación"
+        ],
+        "conocimientos_practicos": [
+          "Finanzas",
+          "Ciclo de ingresos",
+          "Control de cobros y pagos",
+          "Auditorías",
+          "Gestión de incidencias",
+          "Facturación",
+          "Información financiera",
+          "Contabilidad técnica",
+          "Control de gestión",
+          "Excel"
+        ]
+      }
+    },
+    {
+      "index": 6,
+      "title": "Coordinador/a de Formación",
+      "company": "Muerde la pasta",
+      "url": "https://www.infojobs.net/castellon-de-la-plana-castello-de-la-plana/coordinador-formacion/of-ida97b5f2aa4c9cbea05c7f60f1f8ad",
+      "insight": {
+        "tipo_puesto": "Coordinador/a de Formación",
+        "ambito": "Recursos Humanos, Formación, Psicología, Restauración organizada",
+        "habilidades_practicas": [
+          "Planificación y gestión de acciones formativas",
+          "Diseño y estructuración del plan anual de formación",
+          "Detección de necesidades formativas",
+          "Gestión y optimización de presupuesto de formación",
+          "Coordinación de la planificación y ejecución de acciones formativas",
+          "Supervisión del seguimiento y control de las formaciones",
+          "Participación en procesos de acogida",
+          "Análisis del impacto de las acciones formativas",
+          "Toma de decisiones",
+          "Capacidad de coordinación"
+        ],
+        "conocimientos_practicos": [
+          "Gestión de crédito formativo",
+          "Presupuesto de formación",
+          "Herramientas internas de seguimiento y control de formaciones",
+          "Hostelería o restauración organizada"
+        ]
+      }
+    },
+    {
+      "index": 11,
+      "title": "Enfermero/a - NORTE DE ESPAÑA",
+      "company": "Endivo Consulting SL",
+      "url": "https://www.infojobs.net/castellon-de-la-plana-castello-de-la-plana/enfermero-norte-espana/of-i862929739b4836ba0f01472bc3825d",
+      "insight": {
+        "tipo_puesto": "Enfermero/a",
+        "ambito": "Enfermería",
+        "habilidades_practicas": [
+          "Cura de heridas",
+          "Atención de mayores dependientes",
+          "Gestión de pacientes",
+          "Asistencia sanitaria"
+        ],
+        "conocimientos_practicos": [
+          "Enfermería",
+          "Hospitalización",
+          "Emergencias",
+          "Unidad de cuidados intensivos (UCI)"
+        ]
+      }
+    },
+    {
+      "index": 12,
+      "title": "Enfermero/a - Norte de España",
+      "company": "Endivo Consulting SL",
+      "url": "https://www.infojobs.net/castellon-de-la-plana-castello-de-la-plana/enfermero-norte-espana/of-id061bacbfd471ba032ca5eb582c978",
+      "insight": {
+        "tipo_puesto": "Enfermero/a",
+        "ambito": "Atención sanitaria y hospitalaria",
+        "habilidades_practicas": [
+          "Cura de heridas",
+          "Atención de mayores dependientes",
+          "Gestión de pacientes",
+          "Asistencia sanitaria"
+        ],
+        "conocimientos_practicos": [
+          "Enfermería",
+          "Hospitalización",
+          "Emergencias",
+          "Unidad de cuidados intensivos (UCI)",
+          "Diálisis",
+          "Quirófano"
+        ]
+      }
+    },
+    {
+      "index": 13,
+      "title": "Fisioterapeuta",
+      "company": "GRANELL BLANCH SLP",
+      "url": "https://www.infojobs.net/castellon-de-la-plana-castello-de-la-plana/fisioterapeuta/of-iba859e474441838b1b4d68b406d30c",
+      "insight": {
+        "tipo_puesto": "Fisioterapeuta",
+        "ambito": "Fisioterapia y Rehabilitación",
+        "habilidades_practicas": [
+          "Evaluación y tratamiento fisioterapéutico",
+          "Diseño y seguimiento de planes de rehabilitación",
+          "Registro y documentación clínica",
+          "Trabajo en equipo",
+          "Masaje terapéutico",
+          "Trato al paciente",
+          "Punción Seca",
+          "Epte/EPI",
+          "Neuromodulación"
+        ],
+        "conocimientos_practicos": [
+          "Fisioterapia",
+          "Rehabilitación",
+          "Traumatología",
+          "Fisioterapia respiratoria",
+          "Salud y bienestar",
+          "Entrenamiento personal",
+          "Osteopatía",
+          "Ecografía",
+          "CCAFD"
+        ]
+      }
+    },
+    {
+      "index": 14,
+      "title": "Fisioterapeuta Castellón (sustitución vacaciones)",
+      "company": "MUTUA UNIVERSAL",
+      "url": "https://www.infojobs.net/castellon-de-la-plana-castello-de-la-plana/fisioterapeuta-castellon-sustitucion-vacaciones/of-i8c68edf7544026a902a98dddc99cce",
+      "insight": {
+        "tipo_puesto": "Fisioterapeuta",
+        "ambito": "Fisioterapia",
+        "habilidades_practicas": [
+          "Realización de consultas de Recuperación Funcional",
+          "Valoración inicial de pacientes",
+          "Definición de técnicas de tratamiento de recuperación funcional",
+          "Aplicación de técnicas de tratamiento de recuperación funcional",
+          "Elaboración de informes de Fisioterapia",
+          "Registro de actividad asistencial en Historia Clínica"
+        ],
+        "conocimientos_practicos": [
+          "Grado en Fisioterapia"
+        ]
+      }
+    },
+    {
+      "index": 15,
+      "title": "Ingeniero/a de Calidad",
+      "company": "PERSONALTALENT",
+      "url": "https://www.infojobs.net/almazora-almassora/ingeniero-calidad/of-i5e6180b9e043308e0bc56f95bebece",
+      "insight": {
+        "tipo_puesto": "Ingeniero/a de Calidad",
+        "ambito": "Ingeniería Mecánica / Automoción",
+        "habilidades_practicas": [
+          "Gestión de metodologías de resolución de problemas",
+          "Gestión de incidencias de calidad internas y externas",
+          "Comunicación con clientes y proveedores",
+          "Elaboración y mantenimiento de documentación de calidad",
+          "Gestión y mantenimiento del sistema de calidad",
+          "Supervisión del laboratorio de calidad",
+          "Gestión de equipos y medios de medición"
+        ],
+        "conocimientos_practicos": [
+          "Sistemas de gestión de la calidad",
+          "Pruebas funcionales",
+          "Validación",
+          "Normas de calidad",
+          "Ingeniería Mecánica",
+          "Inglés avanzado",
+          "Mecánica del automóvil",
+          "Microsoft Office (Excel, Power BI)",
+          "SAP"
+        ]
+      }
+    },
+    {
+      "index": 16,
+      "title": "Ingeniería en informática, telecomunicaciones o biomedicina - Recién graduado/a-Valencia/Castellon",
+      "company": "MINSAIT (Minsait Payment Systems)",
+      "url": "https://www.infojobs.net/castellon-de-la-plana-castello-de-la-plana/ingenieria-informatica-telecomunicaciones-biomedicina-recien-graduado-valencia-castellon/of-ic7c98762f54760933407590e17552f",
+      "insight": {
+        "tipo_puesto": "Técnico de sistemas informáticos",
+        "ambito": "Ingeniería en informática, telecomunicaciones o biomedicina",
+        "habilidades_practicas": [
+          "Soporte en proyectos de Sanidad",
+          "Disponibilidad de hacer guardias"
+        ],
+        "conocimientos_practicos": [
+          "SQL",
+          "Implantación de producto",
+          "Infraestructuras Digitales y Comunicaciones",
+          "Sistemas informáticos"
+        ]
+      }
+    },
+    {
+      "index": 20,
+      "title": "MÉDICO/A VOLANTE CASTELLÓN",
+      "company": "UNIÓN DE MUTUAS",
+      "url": "https://www.infojobs.net/castellon-de-la-plana-castello-de-la-plana/medico-volante-castellon/of-i10406c85994ef5a83e0cb07fc6ded3",
+      "insight": {
+        "tipo_puesto": "Médico/a volante",
+        "ambito": "Sector sanitario, Medicina",
+        "habilidades_practicas": [
+          "Diagnosis",
+          "Atención primaria",
+          "Gestión de pacientes",
+          "Soporte vital avanzado",
+          "Asistencia sanitaria",
+          "Recepción de pacientes",
+          "Seguimiento de pacientes",
+          "Exploración física de pacientes",
+          "Establecer y aplicar tratamientos",
+          "Cumplimentar y actualizar la historia clínica"
+        ],
+        "conocimientos_practicos": [
+          "Medicina",
+          "Sector sanitario",
+          "Terminología médica",
+          "Traumatología",
+          "Urgencias"
+        ]
+      }
+    },
+    {
+      "index": 21,
+      "title": "Médico/a Gestión de IT - Castellón",
+      "company": "Q-ready",
+      "url": "https://www.infojobs.net/castellon-de-la-plana-castello-de-la-plana/medico-gestion-it-castellon/of-i6946788fe04ecd9af02996d571097a",
+      "insight": {
+        "tipo_puesto": "Médico/a Gestión de IT",
+        "ambito": "Medicina, Gestión de la incapacidad temporal (IT), Valoración del daño corporal",
+        "habilidades_practicas": [
+          "Control y seguimiento de trabajadores/as en situación de IT",
+          "Realización de valoraciones de trabajadores/as en situación de IT",
+          "Solicitud de pruebas o informes a especialistas",
+          "Emisión de altas médicas",
+          "Realización de visitas domiciliarias",
+          "Valoración del daño corporal"
+        ],
+        "conocimientos_practicos": [
+          "Medicina",
+          "Especialidad Médica"
+        ]
+      }
+    },
+    {
+      "index": 22,
+      "title": "Odontólogo/a Odontopediatra Castellón",
+      "company": "Adeslas Dental",
+      "url": "https://www.infojobs.net/castellon-de-la-plana-castello-de-la-plana/odontologo-odontopediatra-castellon/of-ic3b8248e744cc0a8d49670bfba1a25",
+      "insight": {
+        "tipo_puesto": "Odontólogo/a Odontopediatra",
+        "ambito": "Odontología",
+        "habilidades_practicas": [
+          "Proactividad",
+          "Dedicación al paciente",
+          "Orientación a la satisfacción del paciente"
+        ],
+        "conocimientos_practicos": [
+          "Grado en Odontología o Similar",
+          "Odontopediatría",
+          "Máster de la especialidad"
+        ]
+      }
+    },
+    {
+      "index": 23,
+      "title": "Odontólogo/a generalista (jueves)",
+      "company": "Centro Médico Especialidades",
+      "url": "https://www.infojobs.net/castellon-de-la-plana-castello-de-la-plana/odontologo-generalista-jueves/of-i3dbbef52874c78a501b8abd334604c",
+      "insight": {
+        "tipo_puesto": "Odontólogo/a generalista",
+        "ambito": "Odontología",
+        "habilidades_practicas": [
+          "Dotes comunicativas",
+          "Trabajo en equipo",
+          "Responsabilidad médica"
+        ],
+        "conocimientos_practicos": [
+          "Odontología conservadora",
+          "Odontología restauradora"
+        ]
+      }
+    },
+    {
+      "index": 24,
+      "title": "Project manager",
+      "company": "ITBACKING",
+      "url": "https://www.infojobs.net/castellon-de-la-plana-castello-de-la-plana/project-manager/of-i1f018f736c4ebfbda010e1c8c5ddec",
+      "insight": {
+        "tipo_puesto": "Project manager",
+        "ambito": "Ingeniería de Organización Industrial, Ingeniería Industrial",
+        "habilidades_practicas": [
+          "Coordinar equipos técnicos multidisciplinares",
+          "Organización",
+          "Orientación a resultados",
+          "Proactividad",
+          "Capacidad de mejora continua",
+          "Planificación, organización y supervisión de proyectos tecnológicos",
+          "Optimizar el uso de los recursos de la empresa",
+          "Seguimiento de plazos, avances y rentabilidad de los proyectos",
+          "Detección de deficiencias/desviaciones",
+          "Mejora de procesos internos"
+        ],
+        "conocimientos_practicos": [
+          "Planificación de proyectos",
+          "Gestión de proyectos IT",
+          "Coordinación de proyectos",
+          "Mejora continua",
+          "Analítica",
+          "Consultoría de procesos",
+          "Inglés (Intermedio)",
+          "Español (Nativo o Bilingüe)"
+        ]
+      }
+    },
+    {
+      "index": 25,
+      "title": "RESPONSABLE DE MARKETING",
+      "company": "ALENTA EQUIPO S.L.",
+      "url": "https://www.infojobs.net/castellon-de-la-plana-castello-de-la-plana/responsable-marketing/of-i3fbe51a63f409a8df196b2fc267d2e",
+      "insight": {
+        "tipo_puesto": "Responsable de Marketing",
+        "ambito": "Marketing, Comunicación, Diseño, Sector Cerámico",
+        "habilidades_practicas": [
+          "Gestión de personas",
+          "Desarrollo de propuestas de valor",
+          "Posicionamiento de marca",
+          "Generación de contenidos",
+          "Planificación y coordinación de la participación en ferias sectoriales",
+          "Análisis de mercado y tendencias",
+          "Gestión de la promoción",
+          "Coordinación con agencias, proveedores externos y medios de comunicación",
+          "Desarrollo de materiales y argumentarios comerciales",
+          "Ejecución y seguimiento de iniciativas del Plan Estratégico de Marketing",
+          "Comunicación interna"
+        ],
+        "conocimientos_practicos": [
+          "Marketing estratégico",
+          "Marketing operativo",
+          "Photoshop",
+          "Illustrator",
+          "InDesign",
+          "Inglés"
+        ]
+      }
+    },
+    {
+      "index": 29,
+      "title": "TERAPEUTA OCUPACIONAL CENTRO RESIDENCIAL(BALLESOL CASTELLÓN)",
+      "company": "GRUPO BALLESOL",
+      "url": "https://www.infojobs.net/castellon-de-la-plana-castello-de-la-plana/terapeuta-ocupacional-centro-residencial-ballesol-castellon/of-i743aa4a6ee42589dd785d701bcb094",
+      "insight": {
+        "tipo_puesto": "Terapeuta Ocupacional",
+        "ambito": "Terapia Ocupacional, Ámbito geriátrico",
+        "habilidades_practicas": [
+          "Valorar la capacidad funcional y nivel de autonomía",
+          "Diseñar programas individualizados para el mantenimiento o mejora de las actividades de la vida diaria (AVD)",
+          "Realizar talleres de estimulación cognitiva",
+          "Manualidades",
+          "Psicomotricidad",
+          "Ocio terapéutico",
+          "Realizar talleres de gerontogimnasia",
+          "Adaptar entornos, objetos y ayudas técnicas",
+          "Promover la integración social",
+          "Colaborar en la prevención de deterioros físicos y cognitivos"
+        ],
+        "conocimientos_practicos": [
+          "Diplomatura o Grado en Terapia Ocupacional",
+          "Conocimientos sobre el perfil de usuario de residencias"
+        ]
+      }
+    },
+    {
+      "index": 30,
+      "title": "Terapeuta Ocupacional",
+      "company": "HAYS Working for your Tomorrow",
+      "url": "https://www.infojobs.net/villarreal-vila-real/terapeuta-ocupacional/of-i6871c9bbd046399e457dae9a75f862",
+      "insight": {
+        "tipo_puesto": "Terapeuta Ocupacional",
+        "ambito": "Terapia Ocupacional",
+        "habilidades_practicas": [
+          "Realizar la valoración inicial de las personas que ingresan",
+          "Elaborar planes individualizados de tratamiento",
+          "Diseñar, planificar y llevar a cabo intervenciones de terapia ocupacional",
+          "Implementar sesiones de terapia ocupacional enfocadas en entrenar, mantener o recuperar habilidades funcionales",
+          "Orientar a familiares sobre ayudas técnicas o productos de apoyo",
+          "Revisar periódicamente la evolución de cada residente",
+          "Supervisar la correcta realización de las ABVD",
+          "Ofrecer soporte al personal auxiliar"
+        ],
+        "conocimientos_practicos": [
+          "Titulación en Terapia Ocupacional (Diplomatura o Grado)",
+          "Atención primaria",
+          "Ámbito hospitalario",
+          "Residencias de mayores",
+          "Estimulación cognitiva",
+          "Ejercicio físico",
+          "Ayudas técnicas o productos de apoyo",
+          "Intervenciones terapéuticas (aspectos físicos, cognitivos, emocionales y conductuales)"
+        ]
+      }
+    },
+    {
+      "index": 31,
+      "title": "Terapeuta Ocupacional Centro Residencial DomusVi Vilareal",
+      "company": "DomusVi",
+      "url": "https://www.infojobs.net/villarreal-vila-real/terapeuta-ocupacional-centro-residencial-domusvi-vilareal/of-i418e4cd47e40e5a1f5651634875ef4",
+      "insight": {
+        "tipo_puesto": "Terapeuta Ocupacional",
+        "ambito": "Terapia Ocupacional, Gerontología, Sanitario",
+        "habilidades_practicas": [
+          "Valoración de capacidades de desempeño de la actividad de la vida diaria",
+          "Programación, validación y ejecución de programas de tratamientos de terapia ocupacional",
+          "Entrenamiento y reeducación de las actividades de la vida diaria básicas e instrumentales",
+          "Estimulación cognitiva",
+          "Ejecución de actividades psicosociales y de intervención comunitaria",
+          "Evaluación y análisis de la evolución del tratamiento rehabilitador",
+          "Supervisión e intervención en las ABVD (Actividades Básicas de la Vida Diaria)",
+          "Apoyo a auxiliares",
+          "Asesoramiento a familiares sobre productos ortopédicos de apoyo y orto protésicos",
+          "Escucha activa y afectiva"
+        ],
+        "conocimientos_practicos": [
+          "Terapia Ocupacional",
+          "Gerontología",
+          "Atención primaria",
+          "Fomento de la Igualdad",
+          "Innovación y nuevas tecnologías"
+        ]
+      }
+    }
+  ],
+  "errors": [
+    {
+      "index": 7,
+      "title": "Customer Service Exportación",
+      "url": "https://www.infojobs.net/castellon-de-la-plana-castello-de-la-plana/customer-service-exportacion/of-i25a0ce6c84492185eefa85fc650bce",
+      "error": "Gemini extraction failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-3-flash\\nPlease retry in 32.379854758s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '32s'}]}}"
+    },
+    {
+      "index": 8,
+      "title": "DUE - ENFERMERO/A CENTRO RESIDENCIAL (BALLESOL CASTELLÓN)",
+      "url": "https://www.infojobs.net/castellon-de-la-plana-castello-de-la-plana/due-enfermero-centro-residencial-ballesol-castellon/of-ic2bf06bd8f4dd09c03e22a735991da",
+      "error": "Gemini extraction failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-3-flash\\nPlease retry in 27.581637466s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '27s'}]}}"
+    },
+    {
+      "index": 9,
+      "title": "Desarrollador/a Full Stack",
+      "url": "https://www.infojobs.net/castellon-de-la-plana-castello-de-la-plana/desarrollador-full-stack/of-i79be1e14244e2eaa60c1bddb1a0f41",
+      "error": "Gemini extraction failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-3-flash\\nPlease retry in 22.628212077s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '22s'}]}}"
+    },
+    {
+      "index": 10,
+      "title": "Educador/a social- hogar matilde salvador y segarra 35h/s ( turno noche)",
+      "url": "https://www.infojobs.net/castellon-de-la-plana-castello-de-la-plana/educador-social-hogar-matilde-salvador-segarra-35h-s-turno-noche/of-i242cb030fc4883915f00be89758790",
+      "error": "Gemini extraction failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-3-flash\\nPlease retry in 17.45638128s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '17s'}]}}"
+    },
+    {
+      "index": 17,
+      "title": "Jefe/a de explotación - Conservación de carreteras – Vila-real",
+      "url": "https://www.infojobs.net/villarreal-vila-real/jefe-explotacion-conservacion-carreteras-vila-real/of-ia163b2b64044f5a0cf189e3af44605",
+      "error": "Gemini extraction failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-3-flash\\nPlease retry in 27.346081819s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-3-flash', 'location': 'global'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '27s'}]}}"
+    },
+    {
+      "index": 18,
+      "title": "MAESTRO/A",
+      "url": "https://www.infojobs.net/castellon-de-la-plana-castello-de-la-plana/maestro/of-i832323dc974e2f918e528ae465330d",
+      "error": "Gemini extraction failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-3-flash\\nPlease retry in 22.563414716s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-3-flash', 'location': 'global'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '22s'}]}}"
+    },
+    {
+      "index": 19,
+      "title": "MARKETING MANAGER",
+      "url": "https://www.infojobs.net/castellon-de-la-plana-castello-de-la-plana/marketing-manager/of-ia8220a90e3470590533d708a0b46f6",
+      "error": "Gemini extraction failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-3-flash\\nPlease retry in 17.737113712s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '17s'}]}}"
+    },
+    {
+      "index": 26,
+      "title": "RESPONSABLE DE ZONA: SEGUROS DE VIAJE",
+      "url": "https://www.infojobs.net/castellon-de-la-plana-castello-de-la-plana/responsable-zona-seguros-viaje/of-i339c5b6c2e4792bc74b1170eadaeef",
+      "error": "Gemini extraction failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-3-flash\\nPlease retry in 27.371360559s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '27s'}]}}"
+    },
+    {
+      "index": 27,
+      "title": "Responsable de compras",
+      "url": "https://www.infojobs.net/villarreal-vila-real/responsable-compras/of-iaa3c05de2d4f2a89ea0b5d09baaf05",
+      "error": "Gemini extraction failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-3-flash\\nPlease retry in 22.497358803s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '22s'}]}}"
+    },
+    {
+      "index": 28,
+      "title": "Supervisor de Montaje eléctrico",
+      "url": "https://www.infojobs.net/castellon-de-la-plana-castello-de-la-plana/supervisor-montaje-electrico/of-i362eb9f61a4f33b9c92ee807cdca55",
+      "error": "Gemini extraction failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-3-flash\\nPlease retry in 17.667348398s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '17s'}]}}"
+    },
+    {
+      "index": 32,
+      "title": "Trabajador/a Social Centro Residencial DomusVi Vilareal",
+      "url": "https://www.infojobs.net/villarreal-vila-real/trabajador-social-centro-residencial-domusvi-vilareal/of-i1bb1e63f0b4a2cbc87b1189dd193cb",
+      "error": "Gemini extraction failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash\\nPlease retry in 48.399040934s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '48s'}]}}"
+    },
+    {
+      "index": 33,
+      "title": "TÉCNICO/A GESTIÓN PRESTACIONES ECONÓMICAS",
+      "url": "https://www.infojobs.net/castellon-de-la-plana-castello-de-la-plana/tecnico-gestion-prestaciones-economicas/of-if5c75ca93d433e89b61429a2595b9b",
+      "error": "Gemini extraction failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash\\nPlease retry in 43.606341704s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '43s'}]}}"
+    },
+    {
+      "index": 34,
+      "title": "TÉCNICO/A NÓMINAS.",
+      "url": "https://www.infojobs.net/castellon-de-la-plana-castello-de-la-plana/tecnico-nominas./of-if0955af6a14ee3a265a4e48f7708cf",
+      "error": "Gemini extraction failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash\\nPlease retry in 38.781791917s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '38s'}]}}"
+    },
+    {
+      "index": 35,
+      "title": "Técnico/a Comercial - Export Manager",
+      "url": "https://www.infojobs.net/castellon-de-la-plana-castello-de-la-plana/tecnico-comercial-export-manager/of-iff19415c52424abbf258556d833282",
+      "error": "Gemini extraction failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash\\nPlease retry in 33.770503552s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '33s'}]}}"
+    },
+    {
+      "index": 36,
+      "title": "Técnico/a RRHH & PRL",
+      "url": "https://www.infojobs.net/castellon-de-la-plana-castello-de-la-plana/tecnico-rrhh-prl/of-id7545d6a824cc284c293d7606d4b02",
+      "error": "Gemini extraction failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash\\nPlease retry in 28.812151326s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '28s'}]}}"
+    },
+    {
+      "index": 37,
+      "title": "Técnico/a de medioambiente",
+      "url": "https://www.infojobs.net/villarreal-vila-real/tecnico-medioambiente/of-i7b631fdbc443b8a1e0e48191baf7fa",
+      "error": "Gemini extraction failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash\\nPlease retry in 23.911798185s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-3-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '23s'}]}}"
+    },
+    {
+      "index": 38,
+      "title": "Visitador/a Médico/a",
+      "url": "https://www.infojobs.net/castellon-de-la-plana-castello-de-la-plana/visitador-medico/of-i977f392ecf47c99f123b434e8bf4db",
+      "error": "Gemini extraction failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash\\nPlease retry in 19.014940687s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '19s'}]}}"
+    },
+    {
+      "index": 39,
+      "title": "Óptico/a Optometrista - CC Salera (Castellón - 3 días de trabajo y 4 de libranza",
+      "url": "https://www.infojobs.net/castellon-de-la-plana-castello-de-la-plana/optico-optometrista-cc-salera-castellon-3-dias-trabajo-4-libranza/of-i09d4a81f8646a38d3638e9c4343f8e",
+      "error": "Gemini extraction failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash\\nPlease retry in 14.153682569s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '14s'}]}}"
+    },
+    {
+      "index": 40,
+      "title": "Óptico/a Optometrista Castellón",
+      "url": "https://www.infojobs.net/castellon-de-la-plana-castello-de-la-plana/optico-optometrista-castellon/of-i9f370cea97437c828065d3c4c4a2eb",
+      "error": "Gemini extraction failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash\\nPlease retry in 9.305391161s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '9s'}]}}"
+    }
+  ],
+  "runtime_seconds": 247.07
+}
