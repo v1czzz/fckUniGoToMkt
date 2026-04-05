@@ -9,7 +9,6 @@ This script uses the Firecrawl CLI to:
 
 from __future__ import annotations
 
-import argparse
 import concurrent.futures
 import datetime as dt
 import json
@@ -17,12 +16,16 @@ import re
 import subprocess
 import sys
 import time
-from pathlib import Path
 from typing import Iterable, List
 from urllib.parse import urlsplit, urlunsplit
 
-PROJECT_ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_OUTPUT_PATH = Path("laSalsa/rawData.json")
+from project_config import (
+    PROJECT_ROOT,
+    RAW_DATA_PATH,
+    SCRAPER_MAX_PAGES,
+    SCRAPER_WAIT_FOR_MS,
+    SCRAPER_WORKERS,
+)
 
 
 SEARCH_URL_TEMPLATE = (
@@ -49,15 +52,6 @@ EXTRACTION_PROMPT = (
     "Si falta algun dato, usa cadena vacia. "
     "No incluyas markdown ni texto adicional."
 )
-
-
-def resolve_path_arg(raw_path: str, default_path: Path) -> Path:
-    path = Path(raw_path)
-    if path.is_absolute():
-        return path
-    if path == default_path:
-        return PROJECT_ROOT / path
-    return path
 
 
 def run_command(args: List[str]) -> str:
@@ -178,42 +172,22 @@ def chunked(iterable: Iterable[str], size: int) -> Iterable[list[str]]:
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Scrape InfoJobs Castellon+Grado offers")
-    parser.add_argument(
-        "--output",
-        default=DEFAULT_OUTPUT_PATH.as_posix(),
-        help=f"Output JSON path (default: {DEFAULT_OUTPUT_PATH.as_posix()})",
-    )
-    parser.add_argument(
-        "--max-pages",
-        type=int,
-        default=12,
-        help="Maximum result pages to inspect (default: 12)",
-    )
-    parser.add_argument(
-        "--wait-for-ms",
-        type=int,
-        default=8000,
-        help="Milliseconds to wait for page rendering (default: 8000)",
-    )
-    parser.add_argument(
-        "--workers",
-        type=int,
-        default=2,
-        help="Parallel offer scrapes (default: 2, matches your current Firecrawl concurrency)",
-    )
-    args = parser.parse_args()
-
     started = dt.datetime.now(dt.timezone.utc)
-    offer_urls = discover_offer_urls(max_pages=args.max_pages, wait_for_ms=args.wait_for_ms)
+    offer_urls = discover_offer_urls(
+        max_pages=SCRAPER_MAX_PAGES,
+        wait_for_ms=SCRAPER_WAIT_FOR_MS,
+    )
 
     results: list[dict] = []
     errors: list[dict] = []
 
     # Keep small batches to avoid overwhelming the provider and to simplify retries.
-    for batch in chunked(offer_urls, max(args.workers * 2, 2)):
-        with concurrent.futures.ThreadPoolExecutor(max_workers=args.workers) as pool:
-            futures = {pool.submit(scrape_offer, url, args.wait_for_ms): url for url in batch}
+    for batch in chunked(offer_urls, max(SCRAPER_WORKERS * 2, 2)):
+        with concurrent.futures.ThreadPoolExecutor(max_workers=SCRAPER_WORKERS) as pool:
+            futures = {
+                pool.submit(scrape_offer, url, SCRAPER_WAIT_FOR_MS): url
+                for url in batch
+            }
             for future in concurrent.futures.as_completed(futures):
                 url = futures[future]
                 try:
@@ -236,10 +210,12 @@ def main() -> int:
         "runtime_seconds": round((dt.datetime.now(dt.timezone.utc) - started).total_seconds(), 2),
     }
 
-    output_path = resolve_path_arg(args.output, DEFAULT_OUTPUT_PATH)
-    output_path.parent.mkdir(parents=True, exist_ok=True)
-    output_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"Saved {len(results)} offers to {args.output}")
+    RAW_DATA_PATH.parent.mkdir(parents=True, exist_ok=True)
+    RAW_DATA_PATH.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(
+        "Saved "
+        f"{len(results)} offers to {RAW_DATA_PATH.relative_to(PROJECT_ROOT).as_posix()}"
+    )
     if errors:
         print(f"Warnings: {len(errors)} offers failed. See errors[] in output JSON.")
     return 0

@@ -7,19 +7,22 @@ and writes the aggregated results as JSON.
 
 from __future__ import annotations
 
-import argparse
 import datetime as dt
 import json
 import os
 import re
 import sys
 import time
-from pathlib import Path
 from typing import Any
 
-PROJECT_ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_INPUT_PATH = Path("laSalsa/rawData.json")
-DEFAULT_OUTPUT_PATH = Path("laSalsa/insights.json")
+from project_config import (
+    GEMINI_MODEL,
+    GEMINI_RETRIES,
+    GEMINI_RETRY_DELAY_SECONDS,
+    INSIGHTS_PATH,
+    PROJECT_ROOT,
+    RAW_DATA_PATH,
+)
 
 EXTRACTION_PROMPT_TEMPLATE = """#TAREA
 Tu objetivo es extraer informacion estructurada de una oferta de trabajo.
@@ -59,15 +62,6 @@ ALLOWED_KEYS = {
     "habilidades_practicas",
     "conocimientos_practicos",
 }
-
-
-def resolve_path_arg(raw_path: str, default_path: Path) -> Path:
-    path = Path(raw_path)
-    if path.is_absolute():
-        return path
-    if path == default_path:
-        return PROJECT_ROOT / path
-    return path
 
 
 def build_prompt(offer: dict[str, Any]) -> str:
@@ -139,42 +133,6 @@ def extract_offer_insight(
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Extract job insights with Gemini API")
-    parser.add_argument(
-        "--input",
-        default=DEFAULT_INPUT_PATH.as_posix(),
-        help=(
-            "Path to input raw data JSON "
-            f"(default: {DEFAULT_INPUT_PATH.as_posix()})"
-        ),
-    )
-    parser.add_argument(
-        "--output",
-        default=DEFAULT_OUTPUT_PATH.as_posix(),
-        help=(
-            "Path to output insights JSON "
-            f"(default: {DEFAULT_OUTPUT_PATH.as_posix()})"
-        ),
-    )
-    parser.add_argument(
-        "--model",
-        default="gemini-3-flash-preview",
-        help="Gemini model name (default: gemini-3-flash-preview)",
-    )
-    parser.add_argument(
-        "--retries",
-        type=int,
-        default=2,
-        help="Retries per offer on failure (default: 2)",
-    )
-    parser.add_argument(
-        "--retry-delay",
-        type=float,
-        default=1.5,
-        help="Base retry delay in seconds (default: 1.5)",
-    )
-    args = parser.parse_args()
-
     try:
         from dotenv import load_dotenv  # type: ignore
     except ModuleNotFoundError:
@@ -200,7 +158,7 @@ def main() -> int:
         print("Missing GEMINI_API_KEY environment variable", file=sys.stderr)
         return 1
 
-    input_path = resolve_path_arg(args.input, DEFAULT_INPUT_PATH)
+    input_path = RAW_DATA_PATH
     if not input_path.exists():
         print(f"Input file not found: {input_path}", file=sys.stderr)
         return 1
@@ -230,10 +188,10 @@ def main() -> int:
         try:
             insight = extract_offer_insight(
                 client=client,
-                model_name=args.model,
+                model_name=GEMINI_MODEL,
                 offer=offer,
-                retries=max(args.retries, 0),
-                retry_delay=max(args.retry_delay, 0.1),
+                retries=max(GEMINI_RETRIES, 0),
+                retry_delay=max(GEMINI_RETRY_DELAY_SECONDS, 0.1),
             )
             insights.append(
                 {
@@ -257,8 +215,8 @@ def main() -> int:
             print(f"[{idx}/{len(offers)}] ERROR: {exc}", file=sys.stderr)
 
     output_payload = {
-        "source_input": args.input,
-        "model": args.model,
+        "source_input": RAW_DATA_PATH.relative_to(PROJECT_ROOT).as_posix(),
+        "model": GEMINI_MODEL,
         "generated_at_utc": dt.datetime.now(dt.timezone.utc).isoformat(),
         "total_offers_in_input": len(offers),
         "total_offers_processed": len(insights),
@@ -270,13 +228,15 @@ def main() -> int:
         ),
     }
 
-    output_path = resolve_path_arg(args.output, DEFAULT_OUTPUT_PATH)
-    output_path.parent.mkdir(parents=True, exist_ok=True)
-    output_path.write_text(
+    INSIGHTS_PATH.parent.mkdir(parents=True, exist_ok=True)
+    INSIGHTS_PATH.write_text(
         json.dumps(output_payload, ensure_ascii=False, indent=2),
         encoding="utf-8",
     )
-    print(f"Saved {len(insights)} insights to {args.output}")
+    print(
+        "Saved "
+        f"{len(insights)} insights to {INSIGHTS_PATH.relative_to(PROJECT_ROOT).as_posix()}"
+    )
     if errors:
         print(f"Warnings: {len(errors)} offers failed. See errors[] in output JSON.")
 

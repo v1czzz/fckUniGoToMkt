@@ -2,12 +2,12 @@
 
 Creo que el temario de la universidad tiene mucha paja.
 
-Este proyecto convierte ofertas de empleo en información util para estudiantes.
+Este proyecto convierte ofertas de empleo en informacion util para estudiantes.
 
 La idea es sencilla:
 
-1. Recoger ofertas publicadas en InfoJobs para Castellon de la Plana (u otra ciudad) cuyo requisito sea tener estudios universitarios
-2. Extraer el contenido y usar Gemini para convertir cada oferta en insights estructurados sobre el tipo de puesto, el ambito y las habilidades / conocimientos practicos que de verdad están buscando las empresas.
+1. Recoger ofertas publicadas en InfoJobs para Castellon de la Plana cuyo requisito sea tener estudios universitarios.
+2. Extraer el contenido y usar Gemini para convertir cada oferta en insights estructurados sobre el tipo de puesto, el ambito y las habilidades / conocimientos practicos que de verdad estan buscando las empresas.
 
 Lo que he implementado (ehem vibe-codeado) hasta ahora:
 
@@ -72,18 +72,21 @@ Lo puedes hacer en https://docs.firecrawl.dev/sdks/cli
 
 ## Como usarlo
 
+Los scripts ya no tienen argumentos opcionales por CLI. La idea es que los ejecutes tal cual y, si quieres cambiar rutas o parametros base, edites [src/project_config.py](src/project_config.py).
+
 ### Paso 1. Extraer ofertas de InfoJobs
 
 ```bash
 uv run python src/scrape_infojobs_castellon_grado.py
 ```
 
-Opciones:
+Salida: `laSalsa/rawData.json`
 
-- `--output`: ruta del JSON de salida. Por defecto: `laSalsa/rawData.json`.
-- `--max-pages`: numero maximo de paginas de resultados a revisar.
-- `--wait-for-ms`: tiempo de espera para que renderice la pagina.
-- `--workers`: numero de scrapes paralelos de ofertas.
+Configuracion editable en [src/project_config.py](src/project_config.py):
+
+- `SCRAPER_MAX_PAGES`
+- `SCRAPER_WAIT_FOR_MS`
+- `SCRAPER_WORKERS`
 
 ### Paso 2. Generar insights con Gemini
 
@@ -91,10 +94,12 @@ Opciones:
 uv run python src/generate_insights_gemini.py
 ```
 
-Opciones:
+Entrada: `laSalsa/rawData.json`
 
-- `--input`: ruta del JSON de entrada. Por defecto: `laSalsa/rawData.json`.
-- `--output`: ruta del JSON de salida. Por defecto: `laSalsa/insights.json`.
-- `--model`: modelo de Gemini a usar.
-- `--retries`: reintentos por oferta si falla una llamada.
-- `--retry-delay`: tiempo base entre reintentos.
+Salida: `laSalsa/insights.json`
+
+Configuracion editable en [src/project_config.py](src/project_config.py):
+
+- `GEMINI_MODEL`
+- `GEMINI_RETRIES`
+- `GEMINI_RETRY_DELAY_SECONDS`
